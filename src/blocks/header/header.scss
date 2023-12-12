@@ -1,0 +1,35 @@
+.page-header {
+    margin: 0 auto;
+    width: 100%;
+    font-family: $font-heading;
+    &__top {
+        display: none;
+        @media screen and (min-width: $desktop-sm) {
+            display: block;
+            background-color: $color-primary;
+            font-size: $font-size;
+        }
+    }
+    &__middle {
+        @media screen and (min-width: $desktop-sm) {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        @media screen and (min-width: $desktop) {
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+        @media screen and (min-width: $desktop-xl) {
+            padding-top: 56px;
+            padding-bottom: 56px;
+        }
+    }
+    &__bottom {
+        background-color: $neutral-primary;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

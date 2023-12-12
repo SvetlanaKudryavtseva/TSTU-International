@@ -1,0 +1,86 @@
+extends ../layout/layout-inner
+
+
+block variables
+    - var description = 'International Education Faculty - Tambov State Technical University'
+    - var title = 'International Education Faculty of Tambov State Technical University'
+    - var pageClass = 'IINTEREDU-page'
+    - var sectionKey = 'institutes'
+    - var pageDegree
+
+block promo
+    include ../../blocks/promo/promo
+    include ../../blocks/menu/menu
+block content
+    .breadcrumbs
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="institutes-and-faculties.html" class="breadcrumbs__link breadcrumbs__section-link") Institutes & Faculties
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") International Education Faculty
+    section.about
+        .colums
+            //- aside.colums__col30
+            //-     include ../../blocks/sidebar/sidebar
+            main
+                .content
+                    include ../../blocks/about/about
+                    div
+                        //-div
+                            p Dear Visitor,
+
+                            p I would like to welcome you to our web site. Thank you for your interest in becoming a student at Tambov State Technical University. We are excited about getting to know you and helping you through the admissions process. If you have any questions, please contact us via e-mail and our staff will be happy to assist you. 
+                            p We understand that studying in a foreign country is both an exciting and a challenging experience. We work with students from more than twenty countries and we are here to help make the passage from your home country to Russia as smooth as possible. We wish your stay in Tambov to be productive and enjoyable from the start!
+                            p The study programs offered at Tambov State Technical University provide students with all the necessary materials and guidance to assist them in organizing and focusing their efforts for optimum results within a reasonable period of time.
+                            p I hope your web site visit will entice you to visit us in person.
+                            p Good luck to you in your quest for higher education.
+                            p
+                                i Maxim A.Promtov,
+                            p
+                                i Dean of the Faculty of International Education.
+                        //-div(class="links-block")
+                            h2.section__inner-title2 Useful Links
+                            ul
+                                li
+                                    a(href='https://www.tstu.ru/en/education/inst/pdf/mo/Bachelor_programs_2023-2024_Eng.pdf' target='_blank') Bachelor Degree Programs (academic year  2023-2024)
+                                    |  (pdf-file)
+                                li
+                                    a(href='https://www.tstu.ru/en/education/inst/pdf/mo/Master_programs_2023-2024_Eng.pdf' target='_blank') Master Degree Programs (academic year  2023-2024)
+                                    |  (pdf-file)
+                                li
+                                    a(href='https://www.tstu.ru/en/r.php?r=education.inst&id=18&f=fmo6' target='_blank') Documents required to study at TSTU
+                                li
+                                    a(href='https://www.tstu.ru/en/r.php?r=education.inst&id=18&f=fmo7' target='_blank') How to apply
+                                li
+                                    a(href='https://www.tstu.ru/en/intern/mag/15-12-02_a/05-5_2016.pdf' target='_blank') First Visit to Russia
+                                    |  (pdf-file)
+                                li
+                                    a(href='https://www.tstu.ru/en/education/inst/doc/mo/appl_form.doc') Application Form
+                                    |  (doc-file)
+                                li
+                                    a(href='https://www.tstu.ru/en/r.php?r=education.inst&id=18&f=hist_fmo') History of the Faculty
+
+                    include ../../blocks/instituteInfo/instituteInfo
+                    h2.section__inner-title2 Departments
+                    include ../../blocks/departments/departments
+                    br
+                    br
+                    p The training of specialists for foreign countries is one of the priority directions in the development of international cooperation of the University. The teaching of international students at TSTU is carried out since 1992.
+                    ul
+                        h3 Faculty objectives:
+                        li Creation of all the necessary conditions for international students to receive a higher education;
+                        li Creation of all the necessary conditions for the development of international students;
+                        li Creation of friendly and favorable attitude of international students to the Russian Federation and its population.
+                    ul
+                        h3 The tasks of the Faculty of International Education are:
+                        li complex adaptation of international students to the living and studying conditions in the Russian Federation;
+                        li training of international students for studying at the universities of Russia according to the selected specialty;
+                        li training of foreign specialists;
+                        li organization of the recruitment of international students for studying at TSTU on the basis of Contracts with international partners and agreement with the Ministry of Education of Russia.
+                    ul
+                        h3 The tasks and objectives of the Faculty are implemented by the following activities:
+                        li 
+                            a(href="https://www.tstu.ru/en/education/inst/pdf/mo/fmo_pre-18.pdf") Pre-university Program of International Students (pdf-file);
+                        li 
+                            a(href="https://www.tstu.ru/en/r.php?r=education.inst&id=18&f=fmo2") Russian Language Course.
+
+
+

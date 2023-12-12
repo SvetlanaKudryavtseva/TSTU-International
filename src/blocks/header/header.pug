@@ -1,0 +1,38 @@
+//-+mixin
+header.page-header
+    .page-header__top
+        .page-header__content.container
+            include ../_elements/_nav/_data_nav
+            
+            include ../_elements/_social/_social
+            +social
+            include ../_elements/_lang/_lang
+            +lang
+    .page-header__middle.container
+        .page-header__content
+            include ../_elements/_brand/_data_brand
+            include ../_elements/_lang/_lang-toggle.pug
+            +lang-toggle
+            //- include ../_elements/_icon/_icon.pug
+            //- - const iconSearch = {
+            //- -   src: '../assets/images/icons/icon-search.png',
+            //- -   alt: 'search',
+            //- - }
+            //- +icon(iconSearch)
+            //- - const iconEye = {
+            //- -   src: '../assets/images/icons/icon-eye.png',
+            //- -   alt: 'icon eye',
+            //- - }
+            //- +icon(iconEye)
+            a(href='sitemap.html')
+                include ../_elements/_menu-toggle/_menu-toggle
+                +menu-toggle
+            //-include ../_elements/_sitemap/_sitemap
+            //-+sitemap
+    .page-header__bottom
+        .container
+            include ../_elements/_menu/_data_menu
+
+
+
+

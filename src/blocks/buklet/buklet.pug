@@ -1,0 +1,26 @@
+section.buklet.container
+    - const sectionTitleBuklet = {
+    -   indextitle: 'International Prospectus'
+    - }
+    +section(sectionTitleBuklet)
+        .colums
+            .colums__col50
+                - const sectionImg = {
+                -   src: '../assets/images/tstu-international-prospectus.jpg',
+                -   alt: 'International Prospectus',
+                - }
+                +section(sectionImg)
+            .colums__col50
+                - const sectionText = {
+                -   textBold: 'TSTU international prospectus',
+                -   textRegular: 'Download TSTU international prospectus containing list of educational programs, institutes and faculties of TSTU, accommodation information and information about university life.',
+                - }
+                +section(sectionText)
+                
+                - const button = {
+                -   color: true,
+                -   text: 'DOWNLOAD PDF',
+                -   link: 'assets/pdf/TSTU_International_Prospectus_2022_new_v3.pdf',
+                -   }
+                +button(button)
+

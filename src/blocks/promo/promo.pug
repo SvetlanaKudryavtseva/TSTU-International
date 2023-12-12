@@ -1,0 +1,11 @@
+<!-- section -->
+section.promo
+    if (pageClass == 'index-page')
+        .container__slider
+            include ../_elements/_slider/_slider
+            +slider
+    else
+        .container
+            .promo__item
+                include ../_elements/_banner/_data_banner2.pug
+<!-- end section -->

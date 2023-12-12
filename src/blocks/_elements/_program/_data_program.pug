@@ -1,0 +1,1239 @@
+- let pdf_icon = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.819 14.427c.064.267.077.679-.021.948-.128.351-.381.528-.754.528h-.637v-2.12h.496c.474 0 .803.173.916.644zm3.091-8.65c2.047-.479 4.805.279 6.09 1.179-1.494-1.997-5.23-5.708-7.432-6.882 1.157 1.168 1.563 4.235 1.342 5.703zm-7.457 7.955h-.546v.943h.546c.235 0 .467-.027.576-.227.067-.123.067-.366 0-.489-.109-.198-.341-.227-.576-.227zm13.547-2.732v13h-20v-24h8.409c4.858 0 3.334 8 3.334 8 3.011-.745 8.257-.42 8.257 3zm-12.108 2.761c-.16-.484-.606-.761-1.224-.761h-1.668v3.686h.907v-1.277h.761c.619 0 1.064-.277 1.224-.763.094-.292.094-.597 0-.885zm3.407-.303c-.297-.299-.711-.458-1.199-.458h-1.599v3.686h1.599c.537 0 .961-.181 1.262-.535.554-.659.586-2.035-.063-2.693zm3.701-.458h-2.628v3.686h.907v-1.472h1.49v-.732h-1.49v-.698h1.721v-.784z"/></svg>';
+- let download = 'Download Curriculum'
+-
+    const dataProgram = [
+        {
+            page: 'ArchCiT-page',
+            code: '07.03.01',
+            program: 'Architecture',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Architectural Design',
+                    full_period: '5 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://tstu.ru/svedenPDF/pdf20/bak/up/up_07.03.01.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: 'Architecture and Building Construction',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'ArchCiT-page',
+            code: '07.03.04',
+            program: 'Urban Planning',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    profile_title: 'Urban Planning',
+                    form: 'full-time',
+                    full_period: '5 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_07.03.04.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: 'Architecture and Building Construction',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'ArchCiT-page',
+            code: '08.03.01',
+            program: 'Construction',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            //- 2022-2023- tuition_fee_part: '58 000',
+            tuition_fee_part: '63 100',
+            //- 2022-2023- tuition_fee_corr: '43500',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    profile_title: 'Industrial and Civil Engineering',
+                    form: 'full-time, part-time, study by correspondence',
+                    full_period: '4 years',
+                    part_period: '4 years 10 months',
+                    corr_period: '5 years',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_08.03.01.01_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_08.03.01.01_2023_zf.pdf',
+                    curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_08.03.01.01_2023_oz.pdf',
+                    //- department: 'Structure of Buildings and Constructions',
+                    connect: ''
+                },
+                {
+                    profile_title: 'Highways' ,
+                    form: 'full-time, study by correspondence',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_08.03.01.03_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_08.03.01.03_2023_zf.pdf',
+                    //- department: 'Urban Planning and Roads',
+                    connect: ''
+                }
+            ]
+        },
+        //- {
+        //-     page: 'ArchCiT-page',
+        //-     code: '23.03.01',
+        //-     program: 'Technology of Transport Processes',
+        //-     profile: [
+        //-         {
+        //-             profile_title: 'Road Safety',
+        //-             department: 'Equipment and Technology of Road Transport',
+        //-             tuition_fee: '117000',
+        //-             form_of_training: 'Full-time',
+        //-             period: '5 years',
+        //-             curriculum_link: 'https://tstu.ru/svedenPDF/pdf20/bak/up/up_23.03.01.01_2021_of.pdf',
+        //-         }
+        //-     ]
+        //- },
+        {
+            page: 'ArchCiT-page',
+            code: '23.03.03',
+            program: 'Operation of Transport and Technological Machines and Complexes',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '38500',
+            tuition_fee_corr: '46 800',
+            profile: [
+                {
+                    profile_title: 'Automobiles and Automotive Industry',
+                    form: 'full-time',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_23.03.03.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_23.03.03.01_2023_zf.pdf',
+                    //- department: 'Equipment and Technology of Road Transport',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'ArchCiT-page',
+            code: '35.03.06',
+            program: 'Agro-engineering',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    profile_title: 'Technical Service in Agro-Industrial Complex',
+                    form: 'full-time',
+                    full_period: '5 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://tstu.ru/svedenPDF/pdf20/bak/up/up_35.03.06.01_2021_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: 'Agricultural Engineering',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'ArchCiT-page',
+            code: '43.03.01',
+            program: 'Service',
+            //- 2022-2023- tuition_fee_full: '100 500',
+            tuition_fee_full: '110 200',
+            tuition_fee_part: '',
+            //- 2022-2023 -tuition_fee_corr: '38 100',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    profile_title: 'Technologies for  logistics and transport services organization' ,
+                    form: 'full-time, study by correspondence',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_43.03.01.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_43.03.01.01_2023_zf.pdf',
+                    //- department: 'Equipment and Technology of Road Transport',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'ArchCiT-page',
+            code: '54.03.01',
+            program: 'Design',
+            tuition_fee_full: '190 700',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    profile_title: 'Environmental Design',
+                    form: 'full-time',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_54.03.01.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: 'Equipment and Technology of Road Transport',
+                    connect: '',
+                }
+            ]
+        },
+
+        //- Technological Institute
+
+        {
+            page: 'TI-page',
+            code: '05.03.06',
+            program: 'Ecology and Nature Management',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            tuition_fee_corr: '46 800',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Ecological Safety',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_05.03.06.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'TI-page',
+            code: '15.03.01',
+            program: 'Mechanical Engineering',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '46 800',
+            tuition_fee_corr: '46 800',
+            profile: [
+                {
+                    profile_title: 'Digital Mechanical Engineering' ,
+                    form: 'full-time, study by correspondence',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_15.03.01.02_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_15.03.01.02_2023_zf.pdf',
+                    //- department: 'Equipment and Technology of Road Transport',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'TI-page',
+            code: '15.03.02',
+            program: 'Technological Machines and Equipment',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            tuition_fee_corr: '46 800',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Chemical Machine and Equipment Building',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_15.03.02.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'TI-page',
+            code: '18.03.01',
+            program: 'Chemical Technology',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Chemistry Technology of Organic Products',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_18.03.01.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'TI-page',
+            code: '18.03.02',
+            program: 'Energy-Conservative and Resource-Saving Processes in Chemical Technology, Petrochemistry and Biotechnology',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Engineering of Chemical-Technological Productions',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_18.03.02.03_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'TI-page',
+            code: '19.03.01',
+            program: 'Biotechnology',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Industrial Biotechnology',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_19.03.01.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'TI-page',
+            code: '19.03.02',
+            program: 'Production of Vegetable Foodstuff',
+            tuition_fee_full: '',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '46 800',
+            tuition_fee_corr: '46 800',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Food Products from Vegetable Raw Materials of Regional Origin',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_19.03.02.01_2023_zf.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'TI-page',
+            code: '20.03.01',
+            program: 'Technosphere Safety',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Environmental Engineering',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_20.03.01.02_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'TI-page',
+            code: '21.03.01',
+            program: 'Oil and Gas Engineering',
+            //- 2022-2023 -tuition_fee_full: '144 700',
+            tuition_fee_full: '156 700',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Oil and Gas Engineering Technologies and Equipment',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_21.03.01.02_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'TI-page',
+            code: '22.03.01',
+            program: 'Material Engineering and  Material Technology',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '46 800',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Materials Science and Materials Technology in Mechanical Engineering and Tool Engineering',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_22.03.01.01_2023_zf.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'TI-page',
+            code: '28.03.02',
+            program: 'Nanoengineering',
+            //- 2022-2023 -tuition_fee_full: '144 700',
+            tuition_fee_full: '156 000',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Nanoengineering in Mechanical Engineering',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_28.03.02.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        //- {
+            //- page: 'TI-page',
+            //- code: '29.03.03',
+            //- program: 'Technology of Polygraphic and Packaging Production',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            //- tuition_fee_part: '',
+            //- tuition_fee_corr: '',
+            //- profile: [
+                //- {
+                    //- form: 'full-time',
+                    //- profile_title: 'Technology and Design for Printing and Packaging Production',
+                    //- full_period: '4 years',
+                    //- part_period: '',
+                    //- corr_period: '',
+                    //- curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_29.03.03.01_2023_of.pdf',
+                    //- curriculum_link_part: '',
+                    //- curriculum_link_corr: '',
+                    //- department: '',
+                    //- connect: '',
+                //- }
+            //- ]
+        //- },
+
+        //- Institute of Automation and Information Technologies
+
+        {
+            page: 'IAIT-page',
+            code: '09.03.01',
+            program: 'Informatics and Computer Engineering',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023 -tuition_fee_corr: '46800',
+            tuition_fee_corr: '46800',
+            profile: [
+                {
+                    form: 'full-time, study by correspondence',
+                    profile_title: 'Models, Methods and Software for Design Solutions Analysis',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    //- curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_09.03.01.01_2023_of.pdf',
+                    curriculum_link_full: '/assets/pdf/curriculum/IAIT/09.03.01_Bachelor_Models, Methods and Software for Design Solutions Analysis_full time_2022.pdf',
+                    curriculum_link_part: '',
+                    //- curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_09.03.01.01_2023_zf.pdf',
+                    curriculum_link_corr: '/assets/pdf/curriculum/IAIT/09.03.01_Bachelor_Models, Methods and Software for Design Solutions Analysis_study by correspondence_2022.pdf',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IAIT-page',
+            code: '09.03.02',
+            program: 'Information Systems and Technologies',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023 -tuition_fee_corr: '46800',
+            tuition_fee_corr: '46800',
+            profile: [
+                {
+                    form: 'full-time, study by correspondence',
+                    profile_title: 'Applied Information Systems and Technologies',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    //- curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_09.03.02.01_2023_of.pdf',
+                    curriculum_link_full: '/assets/pdf/curriculum/IAIT/09.03.02_Bachelor_Applied Information Systems and Technologies_full time_2022.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '/assets/pdf/curriculum/IAIT/09.03.02_Bachelor_Applied Information Systems and Technologies_study by correspondence_2022.pdf',
+                    //- curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_09.03.02.01_2023_zf.pdf',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IAIT-page',
+            code: '15.03.06',
+            program: 'Mechatronics and Robotics Technology',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023 -tuition_fee_corr: '46800',
+            profile: [
+                {
+                    form: 'full-time, study by correspondence',
+                    profile_title: 'Information and Sensory Systems in Mechatronics',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    //- curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_15.03.06.01_2023_of.pdf',
+                    curriculum_link_full: '/assets/pdf/curriculum/IAIT/15.03.06_Bachelor_Information and Sensory Systems in Mechatronics_full time_2022.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '/assets/pdf/curriculum/IAIT/15.03.06_Bachelor_Information and Sensory Systems in Mechatronics_study by correspondence_2022.pdf',
+                    //- curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_15.03.06.01_2023_zf.pdf',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IAIT-page',
+            code: '27.03.02',
+            program: 'Quality Management',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time, study by correspondence',
+                    profile_title: 'Quality Systems',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    //- curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_27.03.02.02_2023_of.pdf',
+                    curriculum_link_full: '/assets/pdf/curriculum/IAIT/27.03.02_Bachelor_Quality Systems_full time_2022.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IAIT-page',
+            code: '27.03.04',
+            program: 'Technical Systems Management',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023 -tuition_fee_corr: '46800',
+            tuition_fee_corr: '46800',
+            profile: [
+                {
+                    form: 'full-time, study by correspondence',
+                    profile_title: 'Systems and Means for Technological Processes Control',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    //- curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_27.03.04.01_2023_of.pdf',
+                    curriculum_link_full: '/assets/pdf/curriculum/IAIT/27.03.04_Bachelor_Systems and Means for Technological Processes Control_full time_2022.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '/assets/pdf/curriculum/IAIT/27.03.04_Bachelor_Systems and Means for Technological Processes Control_study by correspondence_2022.pdf',
+                    //- curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_27.03.04.01_2023_zf.pdf',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        ///- end of Institute of Automation and Information Technologies
+
+        //- Institute of Economics and Quality of Life
+
+        {
+            page: 'IECONOM-page',
+            code: '38.03.01',
+            program: 'Economics',
+            //- 2022-2023- //- 2022-2023- tuition_fee_full: '100 500',
+            tuition_fee_full: '110 200',
+            //- 2022-2023- tuition_fee_part: '41 100',
+            tuition_fee_part: '44 900',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time, part-time',
+                    profile_title: 'Finance and Credit',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_38.03.01.01_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_38.03.01.01_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+                {
+                    form: 'full-time, part-time',
+                    profile_title: 'Accounting, Analysis and Audit',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_38.03.01.02_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_38.03.01.02_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IECONOM-page',
+            code: '38.03.02',
+            program: 'Management',
+            //- 2022-2023- tuition_fee_full: '100 500',
+            tuition_fee_full: '110 200',
+            //- 2022-2023- tuition_fee_part: '41 100',
+            tuition_fee_part: '44 900',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time, part-time',
+                    profile_title: 'Production Management',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_38.03.02.02_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_38.03.02.02_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'IECONOM-page',
+            code: '38.03.05',
+            program: 'Business Informatics',
+            //- 2022-2023- tuition_fee_full: '100 500',
+            tuition_fee_full: '110 200',
+            //- 2022-2023- tuition_fee_part: '41 100',
+            tuition_fee_part: '44 900',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time, part-time',
+                    profile_title: 'Information Technologies in Management and Business Analytics',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_38.03.05.02_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_38.03.05.02_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        //- {
+            //- page: 'IECONOM-page',
+            //- code: '38.03.06',
+            //- program: 'Trade',
+            //- tuition_fee_full: '',
+            //- 2022-2023- tuition_fee_part: '41 100',
+            //- tuition_fee_part: '41 100',
+            //- tuition_fee_corr: '',
+            //- profile: [
+                //- {
+                    //- form: 'part-time',
+                    //- profile_title: 'Сommerce',
+                    //- full_period: '',
+                    //- part_period: '5 years',
+                    //- corr_period: '',
+                    //- curriculum_link_full: '',
+                    //- curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_38.03.06.01_2023_oz.pdf',
+                    //- curriculum_link_corr: '',
+                    //- department: '',
+                    //- connect: '',
+                //- }
+            //- ]
+        //- },
+        ///- end of Institute of Economics and Quality of Life
+
+        //- Institute of Law
+
+        {
+            page: 'ILAW-page',
+            code: '09.03.03',
+            program: 'Applied Informatics',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '46 800',
+            tuition_fee_corr: '46 800',
+            profile: [
+                {
+                    form: 'full-time, study by correspondence',
+                    profile_title: 'Applied Informatics in Jurisprudence',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_09.03.03.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_09.03.03.01_2023_zf.pdf',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'ILAW-page',
+            code: '40.03.01',
+            program: 'Jurisprudence',
+            //- 2022-2023- tuition_fee_full: '100 500',
+            tuition_fee_full: '110 200',
+            //- 2022-2023- tuition_fee_part: '41 100',
+            tuition_fee_part: '44 900',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'International Law',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_40.03.01.06_2023_oz.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+                {
+                    form: 'full-time',
+                    profile_title: 'Jurisprudence in Energy Sector',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_40.03.01.05_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_40.03.01.05_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+                {
+                    form: 'full-time',
+                    profile_title: 'Civil Law',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_40.03.01.02_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_40.03.01.02_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+                {
+                    form: 'full-time',
+                    profile_title: 'Criminal Law',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_40.03.01.03_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_40.03.01.03_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+                {
+                    form: 'full-time',
+                    profile_title: 'State Law',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_40.03.01.01_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_40.03.01.01_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                }
+            ]
+        },
+        {
+            page: 'ILAW-page',
+            code: '42.03.01',
+            program: 'Advertisement and Public Relations',
+            //- 2022-2023- tuition_fee_full: '100 500',
+            tuition_fee_full: '110 200',
+            tuition_fee_part: '',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time',
+                    profile_title: 'Communication Technologies in Advertising and Public Relations',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_42.04.01.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+
+        ///- end of Institute of Law
+        
+        //- Institute of Power Engineering, Tool Engineering and Radio Electronics
+
+        {
+            page: 'IENERGO-page',
+            code: '11.03.01',
+            program: 'Radio Engineering',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            //- 2022-2023- tuition_fee_part: '58 000',
+            tuition_fee_part: '63 100',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time, part-time',
+                    profile_title: 'Radio Engineering Means for Signals Transfer, Reception and Processing',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_11.03.01.01_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_11.03.01.01_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IENERGO-page',
+            code: '11.03.02',
+            program: 'Information and Communication Technologies and Systems',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            //- 2022-2023- tuition_fee_part: '58 000',
+            tuition_fee_part: '63 100',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time, part-time',
+                    profile_title: 'Radio Communication and Radio Access Systems',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_11.03.02.01_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_11.03.02.01_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IENERGO-page',
+            code: '11.03.03',
+            program: 'Design and Technology of Electronic Means',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            //- 2022-2023- tuition_fee_part: '58 000',
+            tuition_fee_corr: '',
+            profile: [
+                {
+                    form: 'full-time, part-time',
+                    profile_title: 'Design and Technology of Radio Electronic Means',
+                    full_period: '4 years',
+                    part_period: '5 years',
+                    corr_period: '',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_11.03.03.01_2023_of.pdf',
+                    curriculum_link_part: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_11.03.03.01_2023_oz.pdf',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IENERGO-page',
+            code: '12.03.04',
+            program: 'Biotechnical Systems and Technologies',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '46 800',
+            tuition_fee_corr: '46 800',
+            profile: [
+                {
+                    form: 'full-time, study by correspondence',
+                    profile_title: 'Engineering in Biomedical Practice',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_12.03.04.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_12.03.04.01_2023_zf.pdf',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IENERGO-page',
+            code: '13.03.01',
+            program: 'Heat Power Engineering and Heat Technology',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '46 800',
+            tuition_fee_corr: '46 800',
+            profile: [
+                {
+                    form: 'full-time, study by correspondence',
+                    profile_title: 'Enterprise Energy Supply',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_13.03.01.01_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_13.03.01.01_2023_zf.pdf',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IENERGO-page',
+            code: '13.03.02',
+            program: 'Electric Power Engineering and Electrical Technology',
+            //- 2022-2023- tuition_fee_full: '117 000',
+            tuition_fee_full: '127 600',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '46 800',
+            tuition_fee_corr: '46 800',
+            profile: [
+                {
+                    form: 'full-time, study by correspondence',
+                    profile_title: 'Power Supply of Production Facilities',
+                    full_period: '4 years',
+                    part_period: '',
+                    corr_period: '4 years 10 months',
+                    curriculum_link_full: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_13.03.02.02_2023_of.pdf',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: 'https://www.tstu.ru/svedenPDF/pdf20/bak/up/up_13.03.02.02_2023_zf.pdf',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        ///- end Institute of Power Engineering, Tool Engineering and Radio Electronics
+
+        //- Institute of Study by Correspondence
+        //- {
+             //- page: 'IZO-page',
+             //- code: '08.03.01',
+             //- program: 'Construction',
+             //- tuition_fee_full: '',
+             //- tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '43 500',
+             //- tuition_fee_corr: '43 500',
+             //- profile: [
+                 //- {
+                     //- form: '',
+                     //- profile_title: '',
+                     //- full_period: '',
+                     //- part_period: '',
+                     //- corr_period: '',
+                     //- curriculum_link_full: '',
+                     //- curriculum_link_part: '',
+                     //- curriculum_link_corr: '',
+                    //- department: '',
+                     //- connect: '',
+                 //- },
+             //- ]
+         //- },
+        {
+            page: 'IZO-page',
+            code: '09.03.01',
+            program: 'Informatics and Computer Engineering',
+            tuition_fee_full: '',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '36 900',
+            tuition_fee_corr: '36 900',
+            profile: [
+                {
+                    form: '',
+                    profile_title: '',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: '',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IZO-page',
+            code: '11.03.01',
+            program: 'Radio Engineering',
+            tuition_fee_full: '',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '38 500',
+            tuition_fee_corr: '38 500',
+            profile: [
+                {
+                    form: '',
+                    profile_title: '',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: '',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IZO-page',
+            code: '13.03.02',
+            program: 'Electric Power Engineering and Electrical Technology',
+            tuition_fee_full: '',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '38 500',
+            tuition_fee_corr: '38 500',
+            profile: [
+                {
+                    form: '',
+                    profile_title: '',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: '',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IZO-page',
+            code: '20.03.01',
+            program: 'Technosphere Safety',
+            tuition_fee_full: '',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '38 500',
+            tuition_fee_corr: '38 500',
+            profile: [
+                {
+                    form: '',
+                    profile_title: '',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: '',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IZO-page',
+            code: '22.03.01',
+            program: 'Material Engineering and  Material Technology',
+            tuition_fee_full: '',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '38 500',
+            tuition_fee_corr: '38 500',
+            profile: [
+                {
+                    form: '',
+                    profile_title: '',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: '',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IZO-page',
+            code: '23.03.01',
+            program: 'Operation of Transport and Technological Machines and Complexes',
+            tuition_fee_full: '',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '38 500',
+            tuition_fee_corr: '38 500',
+            profile: [
+                {
+                    form: '',
+                    profile_title: '',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: '',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IZO-page',
+            code: '35.03.06',
+            program: 'Agro-engineering',
+            tuition_fee_full: '',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '38 500',
+            tuition_fee_corr: '38 500',
+            profile: [
+                {
+                    form: '',
+                    profile_title: '',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: '',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IZO-page',
+            code: '40.03.01',
+            program: 'Jurisprudence',
+            tuition_fee_full: '',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '33 500',
+            tuition_fee_corr: '34 500',
+            profile: [
+                {
+                    form: '',
+                    profile_title: '',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: '',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        {
+            page: 'IZO-page',
+            code: '43.03.01',
+            program: 'Service',
+            tuition_fee_full: '',
+            tuition_fee_part: '',
+            //- 2022-2023- tuition_fee_corr: '33 700',
+            tuition_fee_corr: '34 500',
+            profile: [
+                {
+                    form: '',
+                    profile_title: '',
+                    full_period: '',
+                    part_period: '',
+                    corr_period: '',
+                    curriculum_link_full: '',
+                    curriculum_link_part: '',
+                    curriculum_link_corr: '',
+                    //- department: '',
+                    connect: '',
+                },
+            ]
+        },
+        ///- end Institute of Study by Correspondence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+
+-   let classProgram = 'program-details'
++program(dataProgram, classProgram, pdf_icon, download)

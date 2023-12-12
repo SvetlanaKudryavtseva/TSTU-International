@@ -1,0 +1,7 @@
+mixin list2 (links, className)
+    <!-- begin list -->
+    ul(class= className)
+        each link in links
+            li(class= className+'__item')
+                a(class= className+'__link' href= link.url)= link.text
+    <!-- end list -->

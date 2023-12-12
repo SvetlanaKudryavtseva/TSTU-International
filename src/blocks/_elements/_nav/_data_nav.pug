@@ -1,0 +1,34 @@
+-
+    const dataNav = [
+        {
+            title: 'Admission',
+            // url: 'https://www.tstu.ru/en/r.php?r=education.inst&id=18',
+            url: 'https://www.tstu.ru/tstuen/international-education-faculty.html',
+            submenu: []
+        },
+        {
+            title: 'Students',
+            url: 'https://www.tstu.ru/en/r.php?r=education.activ',
+            submenu: [
+                { title: 'Student personal account', url: 'http://web-iais.admin.tstu.ru:7777/big/f?p=505:1:0:::::' },
+                { title: 'Curricula For Foreign Students', url: 'https://www.tstu.ru/en/education/curricula/pdf/curricula.pdf' },
+                // { title: 'Electronic library system of TSTU', url: 'https://www.tstu.ru/en/r.php?r=education.elib' },
+                { title: 'Electronic library system of TSTU', url: 'electronic-library-system-of-tstu.html' },
+            ]
+        },
+        {
+            title: 'Alumni',
+            /*url: 'https://www.tstu.ru/en/r.php?r=alumni.video',*/
+            url: 'alumni.html',
+            submenu: []
+        },
+        {
+            title: 'Partnership',
+            url: 'https://www.tstu.ru/en/r.php?r=intern.part',
+            submenu: []
+        }
+
+    ]
+    
+-   let classNav = 'nav'
++nav(dataNav, classNav)

@@ -1,0 +1,27 @@
+//-1. Create a new-page.pug in PAGES folder
+//-1.1. Add a layout and variables to new-page.pug using one of the layout located in the folder LAYOUT
+extends ../layout/layout-inner
+block variables
+    - var description = 'description - Electronic Library System of Tambov State Technical University'
+    - var title = 'Electronic Library System of TSTU'
+    - var pageClass = 'library'
+    - var sectionKey = 'students'
+
+//-1.2. Add page content structure
+block content
+    //-2. Create in blocks > a folder (name-of-new-block-folder) > and pug and scss files inside this folder
+    //-2.1 Import created scss file to blocks.scss
+    .breadcrumbs.bt-blue
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") Students
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active")= title
+    section
+        h1.section__title Electronic Library System of TSTU
+
+        //-4. include created pug file of this new block or exsisted blocks to the page
+        //- include ../../blocks/library/library
+
+        include ../../blocks/library/library
+
+
+

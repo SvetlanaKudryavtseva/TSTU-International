@@ -1,0 +1,33 @@
+// Import of elements styles
+@import "./_elements/_elements";
+// Import of blocks' styles
+//@import "./page-top/page-top";
+//-@import "./sitemap/sitemap";
+@import "./header/header";
+@import "./promo/promo";
+@import "./menu/menu";
+@import "./menu-bottom/menu-bottom";
+@import "./breadcrumbs/breadcrumbs";
+@import "./course/course";
+@import "./diploma/diploma";
+@import "./buklet/buklet";
+@import "./buklet-research/buklet-research";
+@import "./sidebar/sidebar";
+@import "./footer/footer";
+@import "./person/person";
+@import "./biography/biography";
+@import "./filters/filters";
+@import "./institute/institute";
+@import "./project/project";
+@import "./rankings/rankings";
+@import "./new-block/new-block";
+@import "./cards/cards";
+@import "./programs/programs";
+@import "./master/master";
+@import "./specialist/specialist";
+@import "./sitemap/sitemap";
+@import "./departments/departments";
+@import "./instituteInfo/instituteInfo";
+@import "./library/library";
+//- @import "./library/data_documents";
+//-2.1 Import created scss file to blocks.scss

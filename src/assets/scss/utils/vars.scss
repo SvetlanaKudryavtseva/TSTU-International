@@ -1,0 +1,63 @@
+/* Vars:
+  ========================================================================== */
+
+//
+// Font
+$font-main: 'Roboto-Regular';
+$font-heading-1: 'Montserrat-Bold';
+$font-heading: 'Montserrat-Regular';
+$font-italic: 'Roboto-Italic';
+//
+// Font Size Main
+$font-size: 16px;
+$font-weight-main: 400;
+$line-height-main: 1.4;
+$font-weight-light: 300;
+$font-weight-bold: bold;
+//
+//Font Size Adaptive
+$font-size-xs: $font-size * 0.75; // 12px
+$font-size-sm: $font-size * 0.875px; // 14px
+$font-size-md: $font-size * 1.125; // 18px;
+$font-size-lg: $font-size * 1.5; // 24px;
+$font-size-xl: $font-size * 1.875; // 30px;
+//
+// Screen Size
+$phone-sm: 319px;
+$phone: 479px;
+$tablet-sm: 539px;
+$tablet: 767px;
+$desktop-sm: 1023px;
+$desktop: 1279px;
+$desktop-lg: 1599px;
+$desktop-xl: 1979px;
+//
+// Main color
+$color-default: #212529;
+$color-primary: #2749A1;
+$color-secondary: #FFFFFF;
+$color-accent: #e56025;
+$color-light2: #F6F9FC;
+$color-light: #eef1f6;
+$color-success: #26de81;
+$color-danger: #fc5c65;
+$color-warning: #fed330;
+$color-purple: #8854d0;
+//
+// Neutral Color
+$neutral-primary: #F6F9FC;
+$neutral-secondary: #ccc;
+$neutral-placeholder: #C0C4CC;
+//
+// Border Color
+$border-color: #DCDFE6;
+$border-light: #E4E7ED;
+$border-lighter: #EBEEF5;
+$border-lightex: #F2F6FC;
+//
+// Table gap
+$gap-xs: 0.5rem;
+$gap-sm: $gap-xs * 2;
+$gap: $gap-xs * 4;
+$gap-md: $gap-xs * 6;
+$gap-lg: $gap-xs * 8;

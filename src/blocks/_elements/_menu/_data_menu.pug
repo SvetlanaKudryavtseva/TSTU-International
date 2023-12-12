@@ -1,0 +1,71 @@
+-
+    const dataMenu = [
+        {
+            //- url: 'https://www.tstu.ru/en/r.php?r=info.about',
+            title: 'University',
+            submenu: [
+                //-{ title: 'Rector', url: 'https://www.tstu.ru/en/r.php?r=info.welcom' },
+                //-{ title: 'Mission & Vision', url: 'https://www.tstu.ru/en/r.php?r=info.mission' },
+                { title: 'About TSTU', url: '/about.html' },
+                { title: 'Mission & Vision', url: '/mission-and-vision.html' },
+                { title: 'Rector', url: '/rector.html' },
+                { title: 'Administration', url: '/administration.html' },
+                { title: 'History', url: '/history.html' },
+                //-{ title: 'Video about TSTU', url: 'https://www.tstu.ru/en/r.php?r=info.video' },
+                //-{ title: 'Rankings', url: 'https://www.tstu.ru/en/r.php?r=ratings.ratings' }
+                { title: 'Rankings', url: 'international-rankings.html' },
+            ],
+        },
+        {
+            url: 'https://www.tstu.ru/en/r.php?r=education.activ',
+            title: 'Education',
+            submenu: [
+                { title: 'Institutes and Faculties', url: 'institutes-and-faculties.html' },
+                { title: 'Departments', url: 'https://www.tstu.ru/en/r.php?r=education.kafedra' },
+                // { title: 'Electronic library system of TSTU', url: 'https://www.tstu.ru/en/r.php?r=education.elib' }
+                { title: 'Electronic library system of TSTU', url: 'electronic-library-system-of-tstu.html' }
+            ],
+        },
+        {
+            url: 'https://www.tstu.ru/en/r.php?r=science.ra',
+            title: 'Research & Innovations',
+            submenu: [
+                { title: 'Scientific Articles', url: 'https://www.tstu.ru/en/r.php?r=science.st' },
+                { title: 'Scientific Journals', url: 'https://www.tstu.ru/en/r.php?r=science.jour' },
+            ],
+        },
+        {
+            url: 'international-rankings.html',
+            title: 'Rankings',
+            submenu: [],
+        },
+        {
+            url: 'tstu-international.html',
+            title: 'International',
+            submenu: [
+                { title: 'News & Events', url: 'https://www.tstu.ru/en/r.php?r=intern.news' },
+                { title: 'For Foreign Students', url: 'international-education-faculty.html' },
+                { title: 'Joint Projects', url: 'joint-projects.html' },
+                { title: 'I-Pet Programme', url: 'ipet-programme.html' },
+                { title: 'Diploma Supplement', url: 'diploma-supplement.html' },
+                { title: 'International Rankings', url: 'international-rankings.html' },
+                { title: 'International Partnership', url: 'international-partners.html' },
+            ],
+        },
+        {
+            url: 'https://www.tstu.ru/en/r.php?r=career.partner',
+            title: 'Career & Job',
+            submenu: [
+                { title: 'Employer Partnership', url: 'https://www.tstu.ru/en/r.php?r=career.partner' },
+            ],
+        },
+        {
+            url: 'https://www.tstu.ru/en/r.php?r=stud.life',
+            title: 'Students life',
+            submenu: []
+        }
+
+    ]
+
+-   let classMenu = 'menu'
++menu(dataMenu, classMenu)

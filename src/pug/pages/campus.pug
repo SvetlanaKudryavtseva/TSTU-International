@@ -1,0 +1,25 @@
+extends ../layout/layout-inner
+block variables
+    - var description = 'Campus of Tambov State Technical University'
+    - var title = 'Campus of Tambov State Technical University'
+    - var title_short = 'Campus'
+    - var pageClass = 'campus-page'
+    - var sectionKey = 'about'
+
+//-block promo
+    include ../../blocks/promo/promo
+block content
+    .breadcrumbs.bt-blue
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="about.html" class="breadcrumbs__link breadcrumbs__section-link") About TSTU
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active")= title_short
+    section.about
+        h1.section__title= title
+        .colums
+            aside.colums__col30
+                -   var section = 'campus'
+                include ../../blocks/sidebar/sidebar
+            main.colums__col70
+                .content
+                    h2 Main Building
+                    

@@ -1,0 +1,26 @@
+section.buklet_research.container
+    - const sectionTitleBukletResearch = {
+    -   indextitle: 'Catalogue of Research Projects'
+    - }
+    +section(sectionTitleBukletResearch)
+        .colums
+            .colums__col50
+                - const sectionImg = {
+                -   src: 'assets/images/tstu-catalogue-of-research-projects.jpg',
+                -   alt: 'Catalogue of Research Projects',
+                - }
+                +section(sectionImg)
+            .colums__col50
+                - const sectionText = {
+                -   textBold: 'TSTU Catalogue of Research Projects',
+                -   textRegular: 'Download our brochure to learn more more about research projects at Tambov State Technical University',
+                - }
+                +section(sectionText)
+                
+                - const button = {
+                -   color: true,
+                -   text: 'DOWNLOAD PDF',
+                -   link: 'assets/pdf/tstu-catalogue-of-research-projects-2023.pdf',
+                -   }
+                +button(button)
+

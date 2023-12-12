@@ -1,0 +1,45 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    &__img {
+        width: 500px;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-left: 3rem;
+    }
+    &__title {
+        font-size: 32px;
+        color: #0069B4;
+        font-weight: 800;
+    }
+    &__text {
+        padding-top: 1rem;
+        font-size: 18px;
+        //line-height: 28px;
+        color: #000000;
+    }
+    &__person {
+        font-size: 14px;
+    }
+    &__links {
+        width: 500px;
+        height: auto;
+        border-radius: 10px;
+        border: 2px solid $color-primary;
+        margin-left: 3rem;
+    }
+
+}
+
+.about h3 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+}

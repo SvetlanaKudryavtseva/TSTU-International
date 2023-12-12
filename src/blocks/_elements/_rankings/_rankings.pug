@@ -1,0 +1,21 @@
+mixin rankings(data, class_name)
+    each val,i in data
+        div(class=class_name)
+            p(class=class_name+'__img-box')
+                img(class=class_name+'__img' src=val.img_url)
+            if pageClass = 'international-rankings-page'
+                div(class=class_name+'__description')
+                    div(class=class_name+'__item')
+                        if val.title || val.web_url
+                            a(class=class_name+'__link' href=val.web_url) #[strong #{field_title}] #{val.title}
+                        if val.score || val.score_1
+                            p(class=class_name+'__text')
+                                | #[strong #{field_acronym}] #{val.score}
+                                br
+                                | #[strong #{field_acronym}] #{val.score_1}
+                    div(class=class_name+'__item')
+                        if val.title_2 || val.web_url_2
+                            a(class=class_name+'__link' href=val.web_url_2) #[strong #{field_title}] #{val.title_2}
+                        if val.score_2
+                            p(class=class_name+'__text') #[strong #{field_acronym}] #{val.score_2}
+

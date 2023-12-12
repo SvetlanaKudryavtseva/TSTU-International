@@ -1,0 +1,8 @@
+.promo {
+    overflow: hidden;
+    background-color: $color-primary;
+    &__title {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}

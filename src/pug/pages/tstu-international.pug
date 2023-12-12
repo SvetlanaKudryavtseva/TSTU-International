@@ -1,0 +1,43 @@
+extends ../layout/layout-inner
+block variables
+    - var description = 'Intenational partnership and cooperation of TSTU - Tambov State Technical University, Intenational educational programmes at Tambov State Technical University'
+    - var title = 'TSTU International'
+    - var pageClass = 'international-page'
+    - var sectionKey = 'international'
+
+//-block promo
+    include ../../blocks/promo/promo
+block content
+    .breadcrumbs.bt-blue 
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") TSTU International
+    section.about
+        h1.section__title TSTU International
+        .colums
+            aside.colums__col30
+                include ../../blocks/sidebar/sidebar
+            main.colums__col70
+                .content
+                    .content__img-block
+                        img.content__img-item--one(src='../assets/images/tstu-international.jpg')
+                    p At present the international cooperation is considered to be an indicator of quality and mark of excellence. University internationalization is one of the main priorities for Tambov State Technical University development today.
+                    h2 Strategic goals
+                    ul
+                        li Promotion of the University to the world market of educational services and consolidation of its positions.
+                        li Recruiting foreign citizens to study at TSTU, as well as employment of the best of them in the Russian Federation.
+                        li Organizing the international academic mobility of academic staff and students for the purpose of joint research, and the implementation of creative, social and humanitarian projects.
+                        li Enhancing international scientific collaboration of TSTU with foreign universities and research centers.
+                        li Internationalization of educational programmes.
+                        li Official recognition of TSTU educational programs abroad.
+                        li Realization of the Third Mission of the University
+                    h2 Internationalization
+                    p The key component of the international university life is training international students. The Faculty of International Education provides services to international students, counseling, assistance with accommodation and advice on general welfare.
+                    p Now the total number of international students at the University is more than 800 from 57 countries. The special range of study programs has been developed for foreign students: Pre-university Program for International Students and Intensive Russian Language course. Students having completed the preliminary course may apply for admission to the main TSTU institutes.
+                    p TSTU encourages the complete integration of foreign students into academic and social life of the University.
+                    p The University is actively involved in joint educational programs. Since 2000 TSTU has participated in 14 TEMPUS and ERASMUS+ projects. The University issues the Diploma Supplement in English to its graduates.
+                    p University scientists participate in international conferences where they present their research results, academic staff promotes university education services at world education fairs.
+                    p Some university educators are accredited in the International Society for Engineering Education (IGIP).
+                    p Foreign professors visit TSTU as invited lecturers. Students and academic staff of the University are involeved in academic mobility process, international conferences are organised. We are open to any kind of academic proposals of international cooperation. Please contact our International Office.
+
+
+

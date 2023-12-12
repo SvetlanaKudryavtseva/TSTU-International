@@ -1,0 +1,103 @@
+[33mdb258f7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mTSTU-International/master[m[33m)[m HEAD@{0}: reset: moving to HEAD~19
+[33md2b5033[m HEAD@{1}: commit: change gitignore
+[33m13fbe51[m HEAD@{2}: commit: git ignore modification
+[33mb318bf1[m HEAD@{3}: commit: banner image is changed
+[33mb89fba2[m HEAD@{4}: commit: curriculum links and files added for IAIT page
+[33mb72c89e[m HEAD@{5}: commit: IAIT curriculum
+[33m619c5b1[m HEAD@{6}: commit: typo correction
+[33m984a7a0[m HEAD@{7}: commit: add block of TSTU prospectus into index page
+[33m1e7059d[m HEAD@{8}: commit: add IAIT bachelor curriculum
+[33mb743507[m HEAD@{9}: commit: add block with TSTU prospectus for foreign students
+[33m203a7d5[m HEAD@{10}: commit: delete page
+[33mcbc92e2[m HEAD@{11}: commit: changed data in banner2 component
+[33m5c07e07[m HEAD@{12}: commit: creation of program page
+[33mffb0464[m HEAD@{13}: commit: campus page
+[33m8b17f30[m HEAD@{14}: commit: links in sitemap + delete images
+[33m8c0d909[m HEAD@{15}: commit: IZO specialist programmes
+[33m9a91ef2[m HEAD@{16}: commit: IZO master programmes
+[33mcbebcad[m HEAD@{17}: commit: IZO bachelor programmes
+[33mba79530[m HEAD@{18}: commit: logos alignment on institutes cards
+[33mc19c34f[m HEAD@{19}: commit: added institute of study by correspondence
+[33mdb258f7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mTSTU-International/master[m[33m)[m HEAD@{20}: commit: institute of additional education and faculty of social sciences
+[33m44bb568[m HEAD@{21}: commit: start international education faculty
+[33m557d0bd[m HEAD@{22}: commit: data_program changes for bachelor for of study
+[33m2f385f5[m HEAD@{23}: commit: Institute of Power Engineering
+[33mc612032[m HEAD@{24}: commit: new file: src/assets/images/iait.jpg
+[33m7820627[m HEAD@{25}: commit: add new programmes to iait and arhsit
+[33mfc2eb5c[m HEAD@{26}: commit: Bachelor Programmes for TI
+[33m6af0709[m HEAD@{27}: commit: page of ArchCiT plus Educational Programmes
+[33m4e068ba[m HEAD@{28}: commit: Data of Departments and Centers of Institutes
+[33madf73a1[m HEAD@{29}: commit: Departments of Technological Institute
+[33mcfbf72a[m HEAD@{30}: commit: Technological Institute contacts info
+[33m8e408f6[m HEAD@{31}: commit: about Tecnological Institute
+[33md20d571[m HEAD@{32}: commit: institute programs edit
+[33mf4cc504[m HEAD@{33}: commit: institute banner and menu
+[33mc02d4db[m HEAD@{34}: commit: blocks for institute page
+[33m0966e42[m HEAD@{35}: commit: delite dist-php
+[33mf05652c[m HEAD@{36}: commit: changes to gitignore
+[33mccb1df1[m HEAD@{37}: commit: 'career and job' link to old version
+[33m25e05b0[m HEAD@{38}: commit: _lang-toogle improvement
+[33mdf2ec9e[m HEAD@{39}: commit: menu-toggle menu and button on sitemap improvement
+[33mbf5da82[m HEAD@{40}: commit: research section added
+[33m3dca3fc[m HEAD@{41}: commit: Career and job | partners list
+[33m706149a[m HEAD@{42}: commit: carre-and-job page creation
+[33m9f383d7[m HEAD@{43}: commit: main menu correction
+[33m44de655[m HEAD@{44}: commit: header menus fon-size regulation
+[33m5e2749f[m HEAD@{45}: commit: website font and colors changes, + brand component
+[33m12079d3[m HEAD@{46}: commit: changes of website colores
+[33m144de29[m HEAD@{47}: commit: creation of dist-php folder
+[33m4072af7[m HEAD@{48}: commit: slider_new
+[33mc709544[m HEAD@{49}: commit: links to social; link to main page
+[33m7423111[m HEAD@{50}: commit: ipet 3 information
+[33ma4abebb[m HEAD@{51}: pull --tags TSTU-International master: Merge made by the 'recursive' strategy.
+[33m0bdb125[m HEAD@{52}: checkout: moving from master to master
+[33m0bdb125[m HEAD@{53}: merge release/0.3.3: Merge made by the 'recursive' strategy.
+[33md38a9ae[m[33m ([m[1;33mtag: 0.3.2[m[33m)[m HEAD@{54}: checkout: moving from release/0.3.3 to master
+[33mcb75fc0[m[33m ([m[1;31mTSTU-International/develop[m[33m, [m[1;32mrelease/0.3.3[m[33m, [m[1;32mdevelop[m[33m)[m HEAD@{55}: checkout: moving from develop to release/0.3.3
+[33mcb75fc0[m[33m ([m[1;31mTSTU-International/develop[m[33m, [m[1;32mrelease/0.3.3[m[33m, [m[1;32mdevelop[m[33m)[m HEAD@{56}: commit: changes in nav and menus
+[33m6604854[m HEAD@{57}: checkout: moving from feature/nav-and-menues to develop
+[33m6604854[m HEAD@{58}: Branch: renamed refs/heads/feature/sitemap to refs/heads/feature/nav-and-menues
+[33m6604854[m HEAD@{60}: checkout: moving from develop to feature/sitemap
+[33m6604854[m HEAD@{61}: checkout: moving from feature/menu-toggle to develop
+[33m51fe742[m HEAD@{62}: checkout: moving from develop to feature/menu-toggle
+[33m6604854[m HEAD@{63}: checkout: moving from git-flow to develop
+[33m43d3cbb[m[33m ([m[1;31mTSTU-International/feature/mission[m[33m)[m HEAD@{64}: checkout: moving from develop to git-flow
+[33m6604854[m HEAD@{65}: checkout: moving from git-flow to develop
+[33m43d3cbb[m[33m ([m[1;31mTSTU-International/feature/mission[m[33m)[m HEAD@{66}: checkout: moving from develop to git-flow
+[33m6604854[m HEAD@{67}: merge feature/mission: Merge made by the 'recursive' strategy.
+[33mae521a1[m HEAD@{68}: checkout: moving from feature/mission to develop
+[33m43d3cbb[m[33m ([m[1;31mTSTU-International/feature/mission[m[33m)[m HEAD@{69}: checkout: moving from develop to feature/mission
+[33mae521a1[m HEAD@{70}: checkout: moving from git-flow to develop
+[33m43d3cbb[m[33m ([m[1;31mTSTU-International/feature/mission[m[33m)[m HEAD@{71}: checkout: moving from git-flow to git-flow
+[33m43d3cbb[m[33m ([m[1;31mTSTU-International/feature/mission[m[33m)[m HEAD@{72}: checkout: moving from develop to git-flow
+[33mae521a1[m HEAD@{73}: checkout: moving from git-flow to develop
+[33m43d3cbb[m[33m ([m[1;31mTSTU-International/feature/mission[m[33m)[m HEAD@{74}: checkout: moving from feature/mission to git-flow
+[33m43d3cbb[m[33m ([m[1;31mTSTU-International/feature/mission[m[33m)[m HEAD@{75}: commit: mission page modification
+[33mae521a1[m HEAD@{76}: checkout: moving from develop to feature/mission
+[33mae521a1[m HEAD@{77}: checkout: moving from feature/featute/sitemap to develop
+[33mae521a1[m HEAD@{78}: checkout: moving from develop to feature/featute/sitemap
+[33mae521a1[m HEAD@{79}: commit: menu-toggle complition
+[33m64de484[m HEAD@{80}: commit: check
+[33m3eddf69[m HEAD@{81}: merge feature/menu-toggle: Merge made by the 'recursive' strategy.
+[33m27ac5b3[m HEAD@{82}: checkout: moving from feature/menu-toggle to develop
+[33m51fe742[m HEAD@{83}: commit: menu toggle is added
+[33m27ac5b3[m HEAD@{84}: checkout: moving from develop to feature/menu-toggle
+[33m27ac5b3[m HEAD@{85}: checkout: moving from feature/menu-toggle to develop
+[33m27ac5b3[m HEAD@{86}: checkout: moving from develop to feature/menu-toggle
+[33m27ac5b3[m HEAD@{87}: checkout: moving from feature/menu-toggle to develop
+[33m27ac5b3[m HEAD@{88}: checkout: moving from develop to feature/menu-toggle
+[33m27ac5b3[m HEAD@{89}: checkout: moving from menu-toggle to develop
+[33m27ac5b3[m HEAD@{90}: checkout: moving from menu-toggle to menu-toggle
+[33m27ac5b3[m HEAD@{91}: checkout: moving from menu-toggle to menu-toggle
+[33m27ac5b3[m HEAD@{92}: checkout: moving from develop to menu-toggle
+[33m27ac5b3[m HEAD@{93}: commit: link to index page
+[33m2c1026f[m HEAD@{94}: commit: bundle error detection and elimination
+[33ma87f431[m HEAD@{95}: commit: the order of heading tags is changed ones more
+[33mc2e64c4[m HEAD@{96}: merge feature/change-heading-tags: Merge made by the 'recursive' strategy.
+[33m2c2b942[m HEAD@{97}: checkout: moving from feature/change-heading-tags to develop
+[33m8bd74d0[m HEAD@{98}: commit: order of heading tags is changed
+[33m2c2b942[m HEAD@{99}: checkout: moving from develop to feature/change-heading-tags
+[33m2c2b942[m HEAD@{100}: commit: tstu-international.jpg is added
+[33mb56b299[m HEAD@{101}: checkout: moving from master to develop
+[33md38a9ae[m[33m ([m[1;33mtag: 0.3.2[m[33m)[m HEAD@{102}: checkout: moving from develop to master
+[33mb56b299[m HEAD@{103}: merge release/0.3.1: Me
