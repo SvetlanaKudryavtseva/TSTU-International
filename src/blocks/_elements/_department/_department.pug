@@ -4,12 +4,18 @@ mixin department (pages, className)
         each page in pages
             if(page.page === pageClass)
                 each item in page.departments
+                    //if(page.page === pageClass)
                     div(class=className+'__item')
                         p(class=className+'__title')= item.department
-                        //- summary(class=className+'__description')
-                        //-     p(class=className+'__title')
-                        //-         p= page.department
-                        //- div(class=className+'__content')
-                            //- Department Information will be here
-                    
+    if(pageClass == 'departments-page')
+        each page in pages
+            h2= page.institute
+            each item in page.departments
+                ul(class=className+'__item--all')
+                    li(class=className+'__title')= item.department
+                //- summary(class=className+'__description')
+                //-     p(class=className+'__title')
+                //-         p= page.department
+                //- div(class=className+'__content')
+                    //- Department Information will be here
     <!-- end program -->
