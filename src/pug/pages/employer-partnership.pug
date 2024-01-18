@@ -1,0 +1,334 @@
+//-1. Create a new-page.pug in PAGES folder
+//-1.1. Add a layout and variables to new-page.pug using one of the layout located in the folder LAYOUT
+extends ../layout/layout-inner
+block variables
+    - var description = 'Employer Partnership - Tambov State Technical University'
+    - var title = 'Employer Partnership'
+    - var pageClass = 'employer-partnership-page'
+    - var sectionKey = 'career-and-job'
+
+//-1.2. Add page content structure
+block content
+    //-2. Create in blocks > a folder (name-of-new-block-folder) > and pug and scss files inside this folder
+    //-2.1 Import created scss file to blocks.scss
+    .breadcrumbs.bt-blue
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="" class="breadcrumbs__link breadcrumbs__section-link") Employer Partnership
+    section.research
+        h1.section__title Employer Partnership
+        main.content
+            table(width='100%' border='1' cellspacing='0px' cellpadding='3px')
+                tbody
+                    tr
+                        td(valign='top' align='left')
+                            b Company name
+                        td(valign='top' align='left')
+                            b Link to partnership website
+                    tr
+                        td(valign='top' align='left') JSC &apos;Confectionery Factory &apos;TAKF&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.uniconf.ru/factories/takf/' target='_blank') https://www.uniconf.ru/factories/takf/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Tambov galvanotechnika&apos; named after S.I. Livshitz
+                        td(valign='top' align='left')
+                            a(href='http://www.galvanicrus.ru/catalog/tagat/' target='_blank') http://www.galvanicrus.ru/catalog/tagat/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Corporation &apos;Roskhimzaschita&apos;
+                        td(valign='top' align='left')
+                            a(href='http://krhz.ru/' target='_blank') http://krhz.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Orbita&apos;
+                        td(valign='top' align='left')
+                            a(href='http://www.orbitaoao2.tamb.ru/' target='_blank') http://www.orbitaoao2.tamb.ru/
+                    tr
+                        td(valign='top' align='left') &apos;Vagonremmash
+                        td(valign='top' align='left')
+                            a(href='http://www.vagonremmash.ru/about/affiliates/tambov/' target='_blank') http://www.vagonremmash.ru/about/affiliates/tambov/
+                    tr
+                        td(valign='top' align='left') PJSC &apos;Pigment&apos;
+                        td(valign='top' align='left')
+                            a(href='https://krata.ru/index.php/ru/' target='_blank') https://krata.ru/index.php/ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;ARTI-Plant&apos;
+                        td(valign='top' align='left')
+                            a(href='http://www.arti.com.ru/' target='_blank') http://www.arti.com.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;TALVIS&apos;
+                        td(valign='top' align='left')
+                            a(href='http://www.talvis.ru/' target='_blank') http://www.talvis.ru/
+                    tr
+                        td(valign='top' align='left') CJSC &apos;ISOROC&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.isoroc.ru/' target='_blank') https://www.isoroc.ru/
+                    tr
+                        td(valign='top' align='left') JSC&apos;Khimpromstroy&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') JSC &apos;ZAVKOM&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.zavkom.com/' target='_blank') https://www.zavkom.com/
+                    tr
+                        td(valign='top' align='left') PJSC &apos;Tambov plant &apos;Oktyabr&apos;
+                        td(valign='top' align='left')
+                            a(href='https://oktabr-tz.ru/' target='_blank') https://oktabr-tz.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Pervomaiskkhimmash&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') JSC &apos;Michurinsk Plant &apos;Progress&apos;
+                        td(valign='top' align='left')
+                            a(href='https://mzp.su/' target='_blank') https://mzp.su/
+                    tr
+                        td(valign='top' align='left') Tambov branch PJSC &apos;Rostelecom&apos;
+                        td(valign='top' align='left')
+                            a(href='https://tambov.rt.ru/' target='_blank') https://tambov.rt.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Ecokhimproject&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') PJSC &apos;Tambov plant &apos;Revtrud&apos;
+                        td(valign='top' align='left')
+                            a(href='https://oktabr-tz.ru/' target='_blank') https://oktabr-tz.ru/
+                    tr
+                        td(valign='top' align='left')  PJSC &apos;Tambov plant &apos;Electropribor&apos;
+                        td(valign='top' align='left')
+                            a(href='https://elektmb.ru/' target='_blank') https://elektmb.ru/
+                    tr
+                        td(valign='top' align='left') Tambov regional state institution of health care &apos;Center of emergency medicine&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') JSC &apos;Medtechnika&apos;
+                        td(valign='top' align='left')
+                            a(href='http://www.medtehnikatmb.narod.ru/' target='_blank') http://www.medtehnikatmb.narod.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Research Institure Chimpolymer&apos;
+                        td(valign='top' align='left')
+                            a(href='http://niichimpolymer.ru/' target='_blank') http://niichimpolymer.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Tambovmash&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.tambovmash.ru/' target='_blank') https://www.tambovmash.ru/
+                    tr
+                        td(valign='top' align='left') LLC &apos;Dorproject&apos;
+                        td(valign='top' align='left')
+                            a(href='http://www.dorpr.tamb.ru/' target='_blank') http://www.dorpr.tamb.ru/
+                    tr
+                        td(valign='top' align='left') LLC &apos;DRP&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') JSC &apos;Bakery # 5&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') JSC &apos;Biohim&apos;
+                        td(valign='top' align='left')
+                            a(href='https://biohim68rsk.ucoz.ru/' target='_blank') https://biohim68rsk.ucoz.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Brewery Morshanskiy&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') JSC &apos;Sliding Bearings plant&apos;
+                        td(valign='top' align='left')
+                            a(href='http://www.plain-bearing.ru/' target='_blank') http://www.plain-bearing.ru/
+                    tr
+                        td(valign='top' align='left') branch JSC &apos;TKS&apos; Energosbyt
+                        td(valign='top' align='left')
+                            a(href='https://www.tamcomsys.ru/' target='_blank') https://www.tamcomsys.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Tambov electricity networks&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.tamcomsys.ru/' target='_blank') https://www.tamcomsys.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Tambovgrazhdanproject&apos;
+                        td(valign='top' align='left')
+                            a(href='http://tambov-gp.ru/' target='_blank') http://tambov-gp.ru/
+                    tr
+                        td(valign='top' align='left') banking corporation  &apos;Tambovcreditprombank&apos;
+                        td(valign='top' align='left')
+                            a(href='http://www.tkpb.ru/' target='_blank') http://www.tkpb.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Tambovnefteproduct&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') branch CJSC &apos;Company Trans TeleCom&apos; &apos;Iakroregion Center&apos;
+                        td(valign='top' align='left')
+                            a(href='http://www.transtelecom.ru/' target='_blank') http://www.transtelecom.ru/
+                    tr
+                        td(valign='top' align='left') insurance company VSK
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Real-service&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') JSC &apos;Vneshtorgbank&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.vtb.ru/' target='_blank') https://www.vtb.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;ROSBANK&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.rosbank.ru/' target='_blank') https://www.rosbank.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Tambovspetzmash&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') JSC &apos;Research center&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') Sberbank # 8594
+                        td(valign='top' align='left')
+                            a(href='https://www.sberbank.ru' target='_blank') https://www.sberbank.ru
+                    tr
+                        td(valign='top' align='left') LLC &apos;ArchGrado&apos;
+                        td(valign='top' align='left')
+                            a(href='http://www.arhgrado.ru/' target='_blank') http://www.arhgrado.ru/
+                    tr
+                        td(valign='top' align='left') LLC &apos;Energotechproject&apos;
+                        td(valign='top' align='left')
+                            a(href='http://etpcompany.ru/' target='_blank') http://etpcompany.ru/
+                    tr
+                        td(valign='top' align='left') LLC &apos;Tambovspetzproject&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Profproject&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Tambovspetzstroy&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Investstroy&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Mostostroy&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Company  Capricorn&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') JSC &apos;Tambov plant  ZhBI-1&apos;
+                        td(valign='top' align='left')
+                            a(href='https://bzsk68.ru/' target='_blank') https://bzsk68.ru/
+                    tr
+                        td(valign='top' align='left') LLC &apos;Rosagro&apos;
+                        td(valign='top' align='left')
+                            a(href='https://rusagrogroup.ru/' target='_blank') https://rusagrogroup.ru/
+                    tr
+                        td(valign='top' align='left') LLC &apos;ZhilTechService&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Dorozhnik&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') &apos;Department of  Federal Highway Agency Moscow-Vologograd&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Motorcade 1139&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Autodor-Tambov&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') MBI &apos;Passengers Transportation&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Tambov becon&apos;
+                        td(valign='top' align='left')
+                            a(href='https://rusagrogroup.ru/' target='_blank') https://rusagrogroup.ru/
+                    tr
+                        td(valign='top' align='left') MTC &apos;Tambovgortrans&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') Research Institute &apos;VNIITiN&apos;
+                        td(valign='top' align='left')
+                            a(href='http://vniitin.ru/' target='_blank') http://vniitin.ru/
+                    tr
+                        td(valign='top' align='left') LLC &apos;cCarton-Tara&apos;
+                        td(valign='top' align='left')
+                            a(href='http://karton-tmb.ru/' target='_blank') http://karton-tmb.ru/
+                    tr
+                        td(valign='top' align='left') LLC &apos;Polymerchim&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC  &apos;ELAST&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;PET Tambov&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') CJSC &apos;Diversified manufacturing company &apos;KPZ&apos;
+                        td(valign='top' align='left')
+                            a(href='https://krz.ru/' target='_blank') https://krz.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Karachev plant &apos;Electrodetal&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.elektrodetal.com/' target='_blank') https://www.elektrodetal.com/
+                    tr
+                        td(valign='top' align='left') branch &apos;TSLATI in Tambov region&apos;
+                        td(valign='top' align='left')
+                            a(href='https://clati-cfo.ru/contacts/' target='_blank') https://clati-cfo.ru/contacts/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Demetra&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') JSC &apos;RNPK&apos;
+                        td(valign='top' align='left')
+                            a(href='https://rnpk.rosneft.ru/' target='_blank') https://rnpk.rosneft.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Znamenka shugar plant&apos;
+                        td(valign='top' align='left')
+                            a(href='https://rusagrogroup.ru/' target='_blank') https://rusagrogroup.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;Tander&apos;
+                        td(valign='top' align='left')
+                            a(href='https://magnit-info.ru/' target='_blank') https://magnit-info.ru/
+                    tr
+                        td(valign='top' align='left') LLC &apos;Econom&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Lanta&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.lanta-net.ru/' target='_blank') https://www.lanta-net.ru/
+                    tr
+                        td(valign='top' align='left') CJSC &apos;Demis Group&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.demis.ru/' target='_blank') https://www.demis.ru/
+                    tr
+                        td(valign='top' align='left') branch PJSC &apos;KVADRA&apos;-&apos;Tambov generation&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.quadra.ru/kontakty/' target='_blank') https://www.quadra.ru/kontakty/
+                    tr
+                        td(valign='top' align='left') MI &apos;Tambovteploservice&apos;
+                        td(valign='top' align='left')
+                            a(href='http://www.muptts.ru/' target='_blank') http://www.muptts.ru/
+                    tr
+                        td(valign='top' align='left') JSC &apos;GT-CHP Energo&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC &apos;Hellmman&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.hellmann.net' target='_blank') https://www.hellmann.net
+                    tr
+                        td(valign='top' align='left') LLC &apos;Granit-M&apos;
+                        td(valign='top' align='left') *
+                    tr
+                        td(valign='top' align='left') LLC CB &apos;RosAvtoBank&apos;
+                        td(valign='top' align='left')
+                            a(href='https://www.asv.org.ru' target='_blank') https://www.asv.org.ru
+                    tr
+                        td(valign='top' align='left') LLC &apos;Znamenskiy sugar plant&apos;
+                        td(valign='top' align='left')
+                            a(href='https://rusagrogroup.ru/' target='_blank') https://rusagrogroup.ru/
+                    tr
+                        td(valign='top' align='left') RUSAGRO Group
+                        td(valign='top' align='left')
+                            a(href='https://rusagrogroup.ru/' target='_blank') https://rusagrogroup.ru/
+                    tr
+                        td(valign='top' align='left') &apos;&apos;TN GRUP&apos; LLC
+                        td(valign='top' align='left')
+                            a(href='https://tn-group.net' target='_blank') https://tn-group.net
+                    tr
+                        td(valign='top' align='left') MKSKOM
+                        td(valign='top' align='left')
+                            a(href='https://mkskom.ru/' target='_blank') https://mkskom.ru/
+                    tr
+                        td(valign='top' align='left') Eurochem
+                        td(valign='top' align='left')
+                            a(href='https://agro.eurochem.ru/kontakty/' target='_blank') https://agro.eurochem.ru/kontakty/

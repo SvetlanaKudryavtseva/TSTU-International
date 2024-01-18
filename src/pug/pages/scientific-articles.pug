@@ -1,0 +1,52 @@
+//-1. Create a new-page.pug in PAGES folder
+//-1.1. Add a layout and variables to new-page.pug using one of the layout located in the folder LAYOUT
+extends ../layout/layout-inner
+block variables
+    - var description = 'Scientific Articles - Tambov State Technical University'
+    - var title = 'Scientific Articles'
+    - var pageClass = 'scientific-articles-page'
+    - var sectionKey = 'research'
+
+//-1.2. Add page content structure
+block content
+    //-2. Create in blocks > a folder (name-of-new-block-folder) > and pug and scss files inside this folder
+    //-2.1 Import created scss file to blocks.scss
+    .breadcrumbs.bt-blue
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="research-activities.html" class="breadcrumbs__link breadcrumbs__section-link") Research
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") Scientific Articles
+    section.research
+        h1.section__title Scientific Articles
+        .colums
+            aside.colums__col30
+                include ../../blocks/sidebar/sidebar
+            main.colums__col70
+                .content
+                    h2 Sections
+                    ul
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=1" target="_blank") Agricultural Engineering
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=3" target="_blank") Automation. Information. Control. Instruments
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=5" target="_blank") Economics and Social Sciences
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=7" target="_blank") Machine-building. Building-construction. Material science. Metal-working
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=9" target="_blank") Mathematics. Physics
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=11" target="_blank") Pedagogic and Psychology
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=13" target="_blank") Power Engineering. Energy Saving. Ecology
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=2" target="_blank") Architecture and Construction. Transport
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=4" target="_blank") Chemical and Related Engineering. Chemistry
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=6" target="_blank") Engineering Pedagogics
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=8" target="_blank") Material Science. Nano Technology
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=10" target="_blank") Metrology, Standardization and Quality Control
+                        li
+                            a(href="https://www.tstu.ru/en/r.php?r=science.st&id=12" target="_blank") Philology

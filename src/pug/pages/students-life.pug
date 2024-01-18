@@ -1,0 +1,40 @@
+//-1. Create a new-page.pug in PAGES folder
+//-1.1. Add a layout and variables to new-page.pug using one of the layout located in the folder LAYOUT
+extends ../layout/layout-inner
+block variables
+    - var description = 'Students Life - Tambov State Technical University'
+    - var title = 'Students Life'
+    - var pageClass = 'students-fife-page'
+    - var sectionKey = 'students-fife'
+
+//-1.2. Add page content structure
+block content
+    //-2. Create in blocks > a folder (name-of-new-block-folder) > and pug and scss files inside this folder
+    //-2.1 Import created scss file to blocks.scss
+    .breadcrumbs.bt-blue
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="students-life.html" class="breadcrumbs__link breadcrumbs__section-link") Students Life
+    section.research
+        h1.section__title Student Life
+        main.content
+            p 
+                img(src="../../assets/images/tstu-students-life.jpg" style={'width': '100%'})
+            p The University Campus includes 14 University buildings, 4 students' hostels, canteens, stadium, gyms, a swimming pool and open-air sports grounds and a park.
+            p Students have access to a variety of academic and personal resources that promote a supportive environment.
+            p Lectures, seminars and laboratory works are held in the study buildings. Young researchers work with their supervisors in scientific laboratories.
+            p The University library offers books and study materials and renders help to students to find the necessary materials and other libraries by inter-library electronic connection. Learning management system VitaLMS provides access to distance learning technologies.
+            p In the gyms the coaches do their best to keep students fit by choosing an individual workout programs.
+            p Students' hostels have single and double rooms which are fully equipped for life and study. Canteens offer a variety of dishes at reasonable prices. There is a market and grocery stores nearby for those who prefer to cook themselves. Students' cafes, bars and city parks are popular places for entertainment and outdoor recreation.
+            p The University life offers a great choice of academic and artistic opportunities to pursue. The whole year round TSTU conducts different events, festivals and competitions to make an extra-curricular life of students bright and memorable. Students apply their creativity and tend to demonstrate their abilities in different cultural and social activities.
+            p Every year Tambov State Technical University organizes such events as:
+            ul 
+                li Students Welcome Ceremony for first-year students
+                li University Visit Day
+                li Festival "Student Spring"
+                li Tatyana's day (this day is a great student's day all over Russia)
+                li Miss TSTU and many others
+            p TSTU students are active in a variety of academic, cultural, sports, political and social organizations. TSTU volunteer center, drummers team, several cheerleading teams are the bright examples of them.
+            p The University newspaper "Alma Mater" presents all important scientific and social events and news.
+            p In summer students and faculty members are welcomed to the summer camps "Bodrost" and "Sosnovy Ugol", situated in the countryside near the river.
+
+

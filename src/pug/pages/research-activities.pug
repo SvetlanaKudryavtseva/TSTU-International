@@ -1,0 +1,167 @@
+//-1. Create a new-page.pug in PAGES folder
+//-1.1. Add a layout and variables to new-page.pug using one of the layout located in the folder LAYOUT
+extends ../layout/layout-inner
+block variables
+    - var description = 'Research Activities - Tambov State Technical University'
+    - var title = 'Research Activities'
+    - var pageClass = 'research-activities-page'
+    - var sectionKey = 'research'
+
+//-1.2. Add page content structure
+block content
+    //-2. Create in blocks > a folder (name-of-new-block-folder) > and pug and scss files inside this folder
+    //-2.1 Import created scss file to blocks.scss
+    .breadcrumbs.bt-blue
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="" class="breadcrumbs__link breadcrumbs__section-link") Research Activities
+    section.research
+        h1.section__title Research Activities
+        .colums
+            aside.colums__col30
+                include ../../blocks/sidebar/sidebar
+            main.colums__col70
+                .content
+                    p About 60 years of Tambov State Technical University history promoted it as Primary University for Regional Economy, supporting and developing economy, science, education and culture in Tambov region.
+                    p The University cooperates with educational institutions, academic and industrial research institutes, high tech enterprises and corporations as stakeholders.
+                    p Research and innovative activities in TSTU are strategically planned and managed by the Department of Science.
+                    p The research is conducted in 150 scientific and research laboratories, 8 scientific and educational centers, 3 centers of shared access, 14 spinoff companies.
+                    p Priority directions of TSTU research activities:
+                    ul
+                        li Chemistry, functional and construction materials, nanotechnologyli
+                        li Information systems and information security
+                        li Energy- and resource-saving, tool engineering and radio electronics
+                        li Rational nature management and environment protection
+                        li Communicative aspects of the historical, legal and socio-economic development of society
+                    p There are 14 leading scientific schools functioning in TSTU. They are headed by famous and well-known scientists, recognized by Russian and international academic community.
+                    p High level of research results received by TSTU scientific schools is proved by publications with high citation index, number of patents, active participation in national, federal and regional target programs, exhibitions and conferences.
+                    p The university has 8 specialized committees having the right to award degrees of Candidate of Sciences and Doctor of Sciences in 15 scientific directions.
+                    p TSTU offers a wide range of post-graduate courses leading to the award of the Candidate of Science Degree (corresponding to Ph.D in Europe).
+                    table(width='100%' border='1' cellspacing='0' cellpadding='3')
+                        tbody
+                            tr
+                                td(valign='top') 01.06.01
+                                td(valign='top') Mathematics and Mechanics
+                                td(valign='top') Mechanics of Strained Rigid Body
+                            tr
+                                td(valign='top') 04.06.01
+                                td(valign='top') Chemical Sciences
+                                td(valign='top') Electrochemistry
+                            tr
+                                td(valign='top') 05.06.01
+                                td(valign='top') Earth Sciences
+                                td(valign='top') Ecology
+                            tr
+                                td(valign='top') 08.06.01
+                                td(valign='top') Engineering and Technology of Civil Engineering
+                                td(valign='top')
+                                    | Structural Units, Buildings and Constructions
+                                    br
+                                    | Building Materials and Products
+                                    br
+                                    | Design and Construction of Highways, Underground Railroads, Aerodromes, Bridges and Tunnels
+                                    br
+                                    | Aerodromes, Bridges and Tunnels
+                            tr
+                                td(valign='top') 09.06.01
+                                td(valign='top') Informatics and Computer Engineering
+                                td(valign='top')
+                                    | System Analysis, Automated Information Processing Systems
+                                    br
+                                    | Automated Information and Control Systems
+                                    br
+                                    | Theoretical Fundamentals of Computer Science
+                                    br
+                                    | Mathematical Modeling and Information Processing
+                                    br
+                                    | Information Systems and Processes
+                            tr
+                                td(valign='top') 10.06.01
+                                td(valign='top') Information Security
+                                td(valign='top') Methods and Systems of Information Protection, Information Security
+                                tr
+                                td(valign='top') 11.06.01
+                                td(valign='top') Electronics, Radioelectronics and Communication Systems
+                                td(valign='top')
+                                    | Radio Equipment Including Television Equipment and Systems
+                                    br
+                                    | Telecommunication Systems, Networks and Devices
+                                    br
+                                    | Radiolocation and Radio Navigation
+                            tr
+                                td(valign='top') 12.06.01
+                                td(valign='top') Photonics, Instrumentation, Optical and Bioengineering Systems and Technologies
+                                td(valign='top')
+                                    | Devices and Methods of Control over Environment, Substances, Materials and Products
+                                    br
+                                    | Medical Devices, Systems and Products
+                                    br
+                                    | Information Measurement Systems
+                            tr
+                                td(valign='top') 13.06.01
+                                td(valign='top') Electrical Engineering and Heat Engineering
+                                td(valign='top') Electrical Engineering Complex and Systems
+                            tr
+                                td(valign='top') 15.06.01
+                                td(valign='top') Mechanical engineering
+                                td(valign='top')
+                                    | Machines, Devices and Processes
+                            tr
+                                td(valign='top') 18.06.01
+                                td(valign='top') Chemical Engineering
+                                td(valign='top')
+                                    | Technology of Electrochemical Processes and Corrosion Protection
+                                    br
+                                    | Processes and Devices of Chemical Engineering
+                            tr
+                                td(valign='top') 19.06.01
+                                td(valign='top') Industrial Ecology and Biotechnology
+                                td(valign='top') Industrial Ecology
+                            tr
+                                td(valign='top') 27.06.01
+                                td(valign='top') Engineering Systems Control
+                                td(valign='top')
+                                    | Automation and Control over Processing and Productions
+                                    br
+                                    | Information, Measurement and Control Systems
+                            tr
+                                td(valign='top') 28.06.01
+                                td(valign='top') Nanotechnologies and Nanomaterials
+                                td(valign='top') Nanotechnologies and Nanomaterials of Special Purpose
+                            tr
+                                td(valign='top') 35.06.04
+                                td(valign='top')
+                                    | Technologies and Facilities for Mechanization and Energy Equipment in Agriculture, Forestry and Fisheries
+                                td(valign='top') Technologies and Facilities for Agriculture Mechanization
+                            tr
+                                td(valign='top') 38.06.01
+                                td(valign='top') Economics
+                                td(valign='top')
+                                    | Economics and Quality Management
+                                    br
+                                    | Finances, Currency Circulation and Credit
+                            tr
+                                td(valign='top') 40.06.01
+                                td(valign='top') Law
+                                td(valign='top')
+                                    | Criminal Procedure
+                                    br
+                                    | Criminal Law and Criminology, Criminal Executive Law 
+                                    br
+                                    | Theory and History of State; History of Law and State Studies
+                            tr
+                                td(valign='top') 41.06.01
+                                td(valign='top') Political Sciences and Regional Studies
+                                td(valign='top') Political Institutions, Processes and Technologies
+                            tr
+                                td(valign='top') 44.06.01
+                                td(valign='top') Education and Pedagogical Sciences
+                                td(valign='top') Theory and Methods of Professional Education
+                            tr
+                                td(valign='top') 45.06.01
+                                td(valign='top') Linguistics and Literature
+                                td(valign='top')
+                                    | Linguistic Theory
+                            tr
+                                td(valign='top') 46.06.01
+                                td(valign='top') Historical Studies and Archaeology
+                                td(valign='top') Native History
