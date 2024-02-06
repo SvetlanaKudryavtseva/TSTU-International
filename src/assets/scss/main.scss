@@ -448,6 +448,55 @@ td {
     border: 2px solid $color-light;
     text-align: left;
 }
+.alumni-page .video-block {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.alumni-page video{
+    border: 1px solid $color-light;
+    padding: 1rem;
+    max-width: 570px;
+    max-height:340px;
+}
+@media all and (max-width:1600px){
+    .alumni-page video{
+        max-width: 520px;
+        max-height:300px;
+    }
+}
+@media all and (max-width:1278px){
+    .alumni-page video{
+        max-width: 420px;
+        max-height:280px;
+    }
+}
+@media all and (max-width:867px){
+    .alumni-page video{
+        margin: 0 auto;
+        max-width: 570px;
+        max-height:340px;
+    }
+}
+@media all and (max-width:635px){
+    .alumni-page video{
+        max-width: 520px;
+        max-height:300px;
+    }
+}
+@media all and (max-width:545px){
+    .alumni-page video{
+        max-width: 420px;
+        max-height:280px;
+    }
+}
+@media all and (max-width:445px){
+    .alumni-page video{
+        max-width: 300px;
+        max-height:180px;
+    }
+}
 
 
 /* 
