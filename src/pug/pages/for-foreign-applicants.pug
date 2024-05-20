@@ -1,0 +1,21 @@
+extends ../layout/layout-inner
+block variables
+    - var description = 'Diploma Supplement - Tambov State Technical University, standards agreed by the European Commission, the Council of Europe and UNESCO'
+    - var title = 'Diploma Supplement'
+    - var pageClass = 'diploma-supplement'
+    - var sectionKey = 'international'
+
+block content
+    .breadcrumbs.bt-blue
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="tstu-international.html" class="breadcrumbs__link breadcrumbs__section-link") TSTU International
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") Diploma Supplement
+    section 
+        h1.section__title Diploma Supplement
+        .colums
+            aside.colums__col30
+                include ../../blocks/sidebar/sidebar
+            main.colums__col70
+                .content
+                    h2.content__title.content__title--top What is a Diploma Supplement?
+
