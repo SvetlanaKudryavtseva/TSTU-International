@@ -1,21 +1,42 @@
 extends ../layout/layout-inner
 block variables
     - var description = 'Diploma Supplement - Tambov State Technical University, standards agreed by the European Commission, the Council of Europe and UNESCO'
-    - var title = 'Diploma Supplement'
-    - var pageClass = 'diploma-supplement'
+    - var title = 'For Foreign Applicants'
+    - var pageClass = 'for-foreign-applicants-page'
     - var sectionKey = 'international'
 
 block content
     .breadcrumbs.bt-blue
         a(href="index.html" class="breadcrumbs__link") Home
         a(href="tstu-international.html" class="breadcrumbs__link breadcrumbs__section-link") TSTU International
-        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") Diploma Supplement
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") For Foreign Applicants
     section 
-        h1.section__title Diploma Supplement
-        .colums
-            aside.colums__col30
-                include ../../blocks/sidebar/sidebar
-            main.colums__col70
-                .content
-                    h2.content__title.content__title--top What is a Diploma Supplement?
+        h1.section__title For Foreign Applicants
+        main.content
+            include ../../blocks/about/about
+            include ../../blocks/instituteInfo/instituteInfo
+            include ../../blocks/course/course
+            h2#application-documents.section__indextitle Documents Required to Study at TSTU
+            ol
+                li
+                    a(href='education/inst/doc/mo/appl_form_05.02.16.doc' target='_blank') Application form;
+                li Medical certificate, HIV-test, X-ray results (filled in Russian and English languages) made not later than in 6 months before coming to Russia;
+                li Legalized educational documents (School certificate, Bachelor&apos;s certificate, Master&rsquo;s certificate);
+                li Notarized and legalized translations of educational documents (2 copies). If the sheet with estimations goes separately from the Certificate (Diploma) it is necessary to make 2 notarized translations of it (2 copies). The name in the translation must be like in VISA;
+                li 6 photos 3&khcy;4 (mat paper) with signature on the over side;
+                li International passport;
+                li Assignment to study from the Ministry of Education of Russian Federation or the Contract with TSTU;
+                li Other documents at will of a candidate, confirming his training.
+            div
+                p
+                    span Dear applicants!
+                p
+                    | Tambov State Technical University informs you that TSTU&rsquo;s foreign students&lsquo; admission office doesn&rsquo;t take any fees for issuing the official invitations for studying or any official letters.
+                p
+                    | Tambov State Technical University accepts only tuition and hostel fees. Tuition and hostel fees can be paid to the official bank account of the university or to the cashier office of the university. All fees are to be made according to the signed contract between an applicant and the university.
+                p
+                    | All full-time students must have medical insurance that meets University criteria. The University assists students with obtaining and appropriate medical insurance upon their arrival to Tambov.
+                p
+                    | Please, apply to the foreign students&rsquo; admission office with any questions: E-mail: 
+                    a(href='mailto:tstu04@yahoo.com') tstu04@yahoo.com
 
