@@ -1,21 +1,21 @@
 extends ../layout/layout-inner
 block variables
-    - var description = 'For Foreign Applicants - Tambov State Technical University, standards agreed by the European Commission, the Council of Europe and UNESCO'
-    - var title = 'For Foreign Applicants'
-    - var pageClass = 'for-foreign-applicants-page'
+    - var description = 'Intensive Russian Language Course at Tambov State Technical University. Learn Russian language at TSTU https://www.tstu.ru/'
+    - var title = 'Intensive Russian Language Course'
+    - var pageClass = 'intensive-russian-language-course-page'
     - var sectionKey = 'international'
 
 block content
     .breadcrumbs.bt-blue
         a(href="index.html" class="breadcrumbs__link") Home
         a(href="tstu-international.html" class="breadcrumbs__link breadcrumbs__section-link") TSTU International
-        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") For Foreign Applicants
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") Intensive Russian Language Course
     section 
-        h1.section__title For Foreign Applicants
+        h1.section__title Intensive Russian Language Course
         main.content
             include ../../blocks/about/about
-            include ../../blocks/instituteInfo/instituteInfo
-            include ../../blocks/course/course
+            //-include ../../blocks/instituteInfo/instituteInfo
+            //-include ../../blocks/course/course
             h2#application-documents.section__indextitle Documents Required to Study at TSTU
             ol
                 li
@@ -27,9 +27,18 @@ block content
                 li International passport;
                 li Assignment to study from the Ministry of Education of Russian Federation or the Contract with TSTU;
                 li Other documents at will of a candidate, confirming his training.
+            h3 Address for applications and additional information:
+            br
             div
-                p
-                    span Dear applicants!
+                p Faculty of International Education, TSTU, Sovetskaya St., 106, Tambov, Russia, 392000
+                p Tel: (4752) 63-20-24
+                p WhatsApp: + 7 910 850 42 50
+                p E-mail: 
+                    a(href='mailto:fmo@mail.tstu.ru') fmo@mail.tstu.ru , 
+                    a(href='mailto:tstu04@yahoo.com') tstu04@yahoo.com
+            h3 Dear applicants!
+            br
+            div
                 p
                     | Tambov State Technical University informs you that TSTU&rsquo;s foreign students&lsquo; admission office doesn&rsquo;t take any fees for issuing the official invitations for studying or any official letters.
                 p
