@@ -11,7 +11,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.grid {
+    display:grid;
+}
+button{
+    border: none;
+}
 html {
     font-family: $font-heading;
     line-height: $line-height-main;

@@ -1,0 +1,19 @@
+extends ../layout/layout-inner
+block variables
+    - var description = 'Association of foreign alumni of Tambov State Technical University. Register at https://www.tstu.ru/association-of-foreign-alumni to become a participant of the Association of TSTU foreign alumni'
+    - var title = 'TSTU Association of Foreign Alumni'
+    - var pageClass = 'association-of-foreign-alumni-page'
+    - var sectionKey = 'alumni'
+
+block content
+    .breadcrumbs.bt-blue
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="alumni.html" class="breadcrumbs__link breadcrumbs__section-link") Alumni
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") TSTU Association of Foreign Alumni
+    section 
+        h1.section__title TSTU Association of Foreign Alumni
+        main.content
+            include ../../blocks/about/about
+            button(class="button button--blue")
+                a(href="r.php?r=work.intern.alumni.registr")   Join TSTU Association of Foreign Alumni
+            //-include ../../blocks/_elements/_association/_data_association

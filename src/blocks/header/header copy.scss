@@ -4,11 +4,6 @@
     font-family: $font-heading;
     &__top {
         display: none;
-        @media screen and (min-width: $desktop) {
-            display: block;
-            background-color: $color-primary;
-            font-size: $font-size;
-        }
         @media screen and (min-width: $desktop-sm) {
             display: block;
             background-color: $color-primary;

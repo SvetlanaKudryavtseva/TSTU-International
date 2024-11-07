@@ -1,0 +1,12 @@
+mixin association (association, className)
+    <!-- begin association -->
+    each item in association
+        if(item.country)
+            h2(class= className+'__country')= item.country
+        if(item.number_of_alumni)
+            p(class= className+'__number_of_alumni')= item.number_of_alumni
+        if(item.coordinator)
+            p(class= className+'__coordinator')= item.coordinator
+
+
+    <!-- end association -->
