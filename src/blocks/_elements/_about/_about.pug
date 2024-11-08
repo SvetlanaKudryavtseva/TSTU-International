@@ -5,10 +5,16 @@ mixin about (blocks, className)
             if(block.about === pageClass)
                 .colums
                     div
-                        h2(class= className+'__title')= block.title
-                        div(class= className+'__text')
-                            each line in block.text.split('\n')
-                                p= line
+                        if(block.title)
+                            h2(class= className+'__title')= block.title
+                        if(block.text)
+                            div(class= className+'__text')
+                                each text in block.text
+                                    p= text.line
+                        if(block.list)
+                            ul(class= className+'__list')
+                                each list in block.list
+                                    li= list.line
                         if(block.person)
                             p(class= className+'__person')
                                 each line_2 in block.person.split('\n')
