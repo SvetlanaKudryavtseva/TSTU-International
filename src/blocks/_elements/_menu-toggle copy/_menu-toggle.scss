@@ -1,0 +1,90 @@
+.menu-toggle {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: #F36F31;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    @media screen and (min-width: $tablet-sm) {
+        height: 4.2rem;
+        width: 4rem;
+    }
+    @media screen and (min-width: $tablet) {
+        height: 4rem;
+    }
+    @media screen and (min-width: $desktop-sm) {
+        display: none;
+    }
+    &:hover {
+        opacity: 0.80;
+        filter: alpha(opacity=80);
+        /* For IE8 and earlier */
+    }
+}
+
+.menu-toggle--front {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 2rem;
+        height: 0.1rem;
+        transform: translateY(-10px);
+        box-shadow: 0 10px 0 $color-secondary;
+        background: $color-secondary;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 2rem;
+        height: 0.1rem;
+        transform: translateY(10px);
+        background: $color-secondary;
+    }
+}
+
+.menu-toggle--active {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 2.5rem;
+        height: 0.1rem;
+        transform: translateY(0) rotate(45deg);
+        box-shadow: 0 0 0 $color-secondary;
+        background: $color-secondary;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 2.5rem;
+        height: 0.1rem;
+        transform: translateY(0) rotate(-45deg);
+        background: $color-secondary;
+    }
+}
+
+.menu-toggle--close {
+    @media screen and (min-width: $desktop-sm) {
+        display: flex;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        width: 2.5rem;
+        height: 0.1rem;
+        transform: translateY(0) rotate(45deg);
+        box-shadow: 0 0 0 $color-secondary;
+        background: $color-secondary;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 2.5rem;
+        height: 0.1rem;
+        transform: translateY(0) rotate(-45deg);
+        background: $color-secondary;
+    }
+}
