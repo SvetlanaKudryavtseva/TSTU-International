@@ -11,9 +11,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bg--orange {
+    background-color:#F36F31;
+}
 .grid {
     display:grid;
 }
+.grid-two-columns{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
 button{
     border: none;
 }
@@ -742,3 +751,40 @@ and also iPads specifically.
     display: flex;
     padding: 2rem 0;
 }
+/* Read more button */
+.read-more-state {
+    display: none;
+}
+
+.read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+    content: 'Read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show less';
+}
+
+.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #666;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
+}
+/* end Read more button */

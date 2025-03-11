@@ -12,10 +12,13 @@ mixin association(blocks, className)
                             div(class= className+'__personal-data')
                                 if(item.name)
                                     p(class= className+'__name')= item.name
-                                    p(class= className+'__country')= 'Страна: '+block.country
                                 if(item.position)
                                     p(class= className+'__position')= item.position
-                        div(class= className+'__text')
+                        div(class= className+'__text')= item.review
+                            details(class= className+'__review')
+                                summary(class= className+'__text') Подробнее...
+                                p= item.review_detail
+                        div(class= className+'__text')= item.review
                             input(type="checkbox" class="read-more-state" id= item.id)
                             p(class="read-more-wrap")= item.review
                                 span(class="read-more-target")= item.review_detail

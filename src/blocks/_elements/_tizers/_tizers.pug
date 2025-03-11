@@ -1,0 +1,9 @@
+mixin tizers(blocks, className)
+    div(class=className)
+        each block in blocks
+            div(class=className+'__item')
+                if(block.even)
+                    span(class=className+'__text-1 even')= block.text_1
+                else
+                    span(class=className+'__text-1')= block.text_1
+                p(class=className+'__text-2')= block.text_2

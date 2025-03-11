@@ -1,5 +1,5 @@
 .button {
-    width: 14.5rem;
+    width: 60%;
     margin: 0 auto;
     background-color: $color-accent;
     padding: 0.7rem 3rem;
@@ -7,6 +7,9 @@
     color: $color-secondary;
     text-transform: uppercase;
     margin-bottom: 0.3rem;
+    display: block;
+    border-radius: calc(.25rem - 1px);
+    text-transform: uppercase;
     @media screen and (min-width: $tablet-sm) {
         width: 16rem;
     }
