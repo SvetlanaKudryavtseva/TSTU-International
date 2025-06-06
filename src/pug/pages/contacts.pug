@@ -1,0 +1,49 @@
+//-1. Create a new-page.pug in PAGES folder
+//-1.1. Add a layout and variables to new-page.pug using one of the layout located in the folder LAYOUT
+extends ../layout/layout-inner
+block variables
+    - var description = 'Contacts - Tambov State Technical University'
+    - var title = 'Contacts'
+    - var pageClass = 'contacts-page'
+    - var sectionKey = 'about'
+
+//-1.2. Add page content structure
+block content
+    //-2. Create in blocks > a folder (name-of-new-block-folder) > and pug and scss files inside this folder
+    //-2.1 Import created scss file to blocks.scss
+    .breadcrumbs.bt-blue
+        a(href="index.html" class="breadcrumbs__link") Home
+        a(href="about.html" class="breadcrumbs__link breadcrumbs__section-link") About TSTU
+        a(href="#" class="breadcrumbs__link breadcrumbs__link--active") Contacts
+    section.contacts
+        h1.section__title Contacts
+        div.colums
+            div.colums__col50
+                h2 International Relations Office
+                p Address: office 29, 106/5, bld. 2, Sovetskaya St., Tambov, Russia, 392000
+                p Phone: +7 (4752) 63-01-12
+                p E-mail: ums@tstu.ru
+                br
+                h2 International Education Faculty
+                p Address: office 26, 1, Leningradskaya St., Tambov, Russia, 392000
+                p Phone: +7 (4752) 63-20-24
+                p E-mail: fmo@mail.tstu.ru, tstu04@yahoo.com
+            div.colums__col50
+                img(src='assets/images/banner-5.png' style='width:100%')
+        br
+        br
+        div
+            script(type='text/javascript' charset='utf-8' async='' src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af97ac705bb9cf86541ba9873892be8ac29eeb448088d915b07f4199eb935a70b&width=100%25&height=450&lang=ru_RU&scroll=true')
+        br
+        br
+
+        //-4. include created pug file of this new block or exsisted blocks to the page
+        //-include ../../blocks/new-block/new-block
+        //- 5.1 add a demo mixin or existing mixin to check the work of the whole page
+        //- 5.1.1 name data array using your new block name for example dataNewBlock
+        //- 6.1 Create a _new-mixin folder in _elements and new-mixin.pug file
+        //- 6.2 Include this new mixin file to _elements.pug
+        //- 6.3 Add variables for classname of the new-block and data values witch we are going to use in mixin
+        //- 6.4 Add a mixin +mixin(dataNewBlock, mixinName) in new-block.pug
+        //-7.1 create css styles in new-block.scss file in BLOCKS folder
+
