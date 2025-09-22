@@ -16,6 +16,14 @@ mixin instituteInfo (cards, className)
                         div(class= className+'__contacts')
                             p= card.tel
                             p= card.fax
-                            p= card.mail
+                            p
+                                if(card.mail)
+                                    a(href= card.mail)= card.mail
+                                if(card.mail_1)
+                                    a(href= card.mail_1)= card.mail_1
+                                if(card.mail_2)
+                                    | , 
+                                    a(href= card.mail_2)= card.mail_2
+
                             p= card.address
     <!-- end card -->
