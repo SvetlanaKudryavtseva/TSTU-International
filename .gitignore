@@ -1,18 +1,60 @@
-node_modules
-dist
-debug.log
-workspace.TSTU-International.code-workspace
-sftp.json
-debug.log
-.vscode
-dist-to-php
-php
-dist_archives
-src/assets/images/*
-src/assets/pdf/*
-src/assets/video/*
-TSTU-International.code-workspace
-.bash.exe.stackdump
-.debug.log
+```
+# Build artifacts
+*.js
+*.css
+*.map
+dist/
+build/
+coverage/
+htmlcov/
 
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Compressed files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.gz
+*.rar
+*.7z
+```
