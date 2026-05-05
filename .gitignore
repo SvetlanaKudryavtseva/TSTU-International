@@ -8,6 +8,13 @@ build/
 coverage/
 htmlcov/
 
+dist_archives/
+php/
+src/assets/images/
+src/assets/pdf/
+src/assets/video/
+*.code-workspace
+
 # Dependencies
 node_modules/
 npm-debug.log*
